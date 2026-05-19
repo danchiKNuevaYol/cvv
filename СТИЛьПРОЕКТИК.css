@@ -1,0 +1,375 @@
+body {
+    background: #F4EFE6;
+    font-family: Cambria, Cochin, Georgia, Times,
+     'Times New Roman', "Alegreya Sans SC", "Caveat", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+p{
+    font-size: 40px;
+}
+h1 {
+    font-size: 32px;
+    font-family: "Alegreya Sans SC", sans-serif;
+}
+  
+h2 {
+    font-size: 20px;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 700;
+}
+  
+h3 {
+    font-size: 14px;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 400;
+}
+
+.nach{
+    height: 1800px;
+    background-color: #521E0B;
+}
+.gorod{
+    width: 1200px;
+    height: 600px;
+    position: relative;
+    background-color: #fff;
+    margin: 0 auto; 
+    margin-bottom: 30px;
+}
+.gorod img{
+    width: 1200px;
+    height: 600px;
+}
+.tl {
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    top: 3%;
+    background-color: #521E0B;
+    color: #F4EFE6;
+}
+.tl h3{
+    position:absolute;
+    left: 60px;
+    top: 20%;
+    margin: 0;
+}
+.tl p{
+    position:absolute;
+    left: 1120px;
+    top: 20%;
+    margin: 0;
+    font-size: 14px;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 400;
+}
+
+
+.bg {
+    width: 20px;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 20px;
+    position: relative;
+    z-index: 10;
+    left: 1150px;
+    top: -60%;
+  } 
+  .bg span {
+    width: 100%;
+    height: 2px;
+    background: #F4EFE6;
+    border-radius: 3px;
+  }
+  .side-menu {
+    position: fixed;
+    top: 0;
+    right: -250px;   
+    width: 250px;
+    height: 100vh;
+    background: #F4EFE6;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 80px 20px;
+    transition: 0.3s;
+    z-index: 1000;
+  }
+  .side-menu.active {
+    right: 0;
+  }
+  .side-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  .clo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+
+.plashka{
+    background-color: #F4EFE6;
+    position: absolute;
+    width: 585px;
+    height: 331px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-5.71deg);    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;
+    border: 7px solid #291F1A;
+}
+.pl{
+    font-weight: 800;
+    font-family: inter;
+}
+.plashka p1{
+    font-family: caveat;
+}
+.board{
+    width: 1111px;
+    height: 810px; 
+    margin: 0 auto; 
+    position: relative; 
+    background: white;
+    text-align: center;
+    border-radius: 50px; 
+  }
+  .board img{
+    position: relative; 
+  }
+  .board p{
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    margin: 0;
+    font-family: "Alegreya Sans SC", sans-serif;
+  }
+  .card {
+    position: absolute; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .red {
+    background: #b52d14;
+    color: #F4EFE6;
+  } 
+  .blue {
+    background: #d8e2ef;
+  } 
+  .dark {
+    background: #2b1714;
+    color: #F4EFE6;
+  }
+  .card1 {
+    top: 156px;
+    left: 46px;
+    width: 500px;
+    height: 163px;
+  } 
+  .card2 {
+    width: 326px;
+    height: 200px;
+    top: 99px;
+    left: 570px;
+  } 
+  .card3 {
+    top: 335px;
+    left: 479px;
+    width: 586px;
+    height: 184px;
+  }
+  .card4 {
+    top: 547px;
+    left: 652px;
+    width: 326px;
+    height: 200px;
+  } 
+  .card5 {
+    width: 326px;
+    height: 200px;
+    top: 374px;
+    left: 133px;
+  } 
+  .card6 {
+    top: 596px;
+    left: 219px;
+    width: 413px;
+    height: 174px;
+  }
+
+  .board h2{
+    margin-top: 42px;
+    margin-bottom: 0;
+  }
+
+  .c1{
+    width: 438px;
+    height: 34px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    display: block;
+  }
+  .c2{
+    width: 211px;
+    height: 51px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    display: block;
+  }
+  .c3{
+    width: 287px;
+    height: 51px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    display: block;
+  }
+  .c4{
+    width: 247px;
+    height: 34px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    display: block;
+  }
+  .c5{
+    width: 294px;
+    height: 51px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    display: block;
+  }
+  .c6{
+    width: 293px;
+    height: 51px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    display: block;
+  }
+
+
+.korich{
+    width: 1005px;
+    height: 294px;
+    background-color: red;
+    margin: 0 auto; 
+    border-radius: 50px;
+    position: relative; 
+    color: #F4EFE6;
+}
+.korich img{
+    position: relative;
+}
+.korich h1{
+    position: absolute;
+    top: 77px;
+    text-align: center;      
+    left: 50%;          
+    transform: translate(-50%, -50%);
+}
+.korich h3{
+    position: absolute;
+    top: 128px;
+    text-align: center;      
+    left: 50%;          
+    transform: translate(-50%, -50%);
+}
+
+
+.con>div{
+    float: left;
+    width: 326px;
+    height: 381px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+.r{
+    background-color: #9B2F16;
+    margin-left: 90px;
+    color: #F4EFE6;
+}
+.b{
+    background-color: #C8D6E5;
+}
+.g{
+    background-color: #291F1A;
+    color: #F4EFE6;
+}
+.con{
+    text-align: center;
+}
+
+
+.cardd{
+    transform: rotate(-11.7deg);
+    position: absolute;
+    left: 1000px;
+}
+.card11{
+    position: relative;
+}
+
+.ny{
+    width: 1280px;
+}
+.per{
+    transform: rotate(-4deg);
+}
+.bum{
+    position: relative;
+}
+.aga1{
+    transform: rotate(8.37deg);
+    position: absolute;
+    left: 500px;
+}
+.aga2{
+    transform: rotate(-1.7deg);
+    position: absolute;
+    left: 450px;
+}
+.vto{
+    text-align: center;
+    transform: rotate(-1.7deg);
+    margin-bottom: 250px;
+}
+.tre{
+    text-align: center;
+    /*float: right;*/
+    margin-left: 800px;
+    transform: rotate(2.73deg);
+    margin-bottom: 100px;
+}
+
+.textot{
+    margin-bottom: 30px;
+}
+.otz{
+    text-align: center;
+}
+.tekstvblo{
+    position: relative;
+}
+.ott{
+    position: absolute;
+    left: 259px;
+    width: 362px;
+    height: 215px;
+    text-align: left;
+    top: 20px;
+}
